@@ -6,6 +6,7 @@
 package com.omnilife.paul.main;
 
 import com.omnilife.paul.controlstructures.IfSimple;
+import com.omnilife.paul.controlstructures.ForTest;
 
 /**
  *
@@ -27,6 +28,9 @@ public class Main {
         
         IfSimple controls = new IfSimple();
         controls.compare();
+        
+        ForTest loop = new ForTest();
+        loop.execute();
     }
 
 }
