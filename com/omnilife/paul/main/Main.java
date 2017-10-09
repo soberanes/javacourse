@@ -7,8 +7,10 @@ package com.omnilife.paul.main;
 
 import com.omnilife.paul.controlstructures.IfSimple;
 import com.omnilife.paul.controlstructures.ForTest;
+import com.omnilife.paul.data.Characters;
 import com.omnilife.paul.programs.BlockTest;
 import com.omnilife.paul.data.Integers;
+import com.omnilife.paul.data.Floating;
 
 /**
  *
@@ -38,6 +40,12 @@ public class Main {
 
         Integers travel = new Integers();
         travel.lightDistance();
+        
+        Floating circle = new Floating();
+        circle.calcutateArea();
+        
+        Characters chars = new Characters();
+        chars.charLikeInteger();
     }
 
 }
