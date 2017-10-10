@@ -13,6 +13,7 @@ import com.omnilife.paul.data.Characters;
 import com.omnilife.paul.programs.BlockTest;
 import com.omnilife.paul.data.Integers;
 import com.omnilife.paul.data.Floating;
+import com.omnilife.paul.operators.Operators;
 
 /**
  *
@@ -52,8 +53,11 @@ public class Main {
 //        Casting cast = new Casting();
 //        cast.promote();
 
-        Arrays months = new Arrays();
-        months.threeDMatrix();
+//        Arrays months = new Arrays();
+//        months.threeDMatrix();
+
+        Operators ops = new Operators();
+        ops.boolLogic();
     }
 
 }
