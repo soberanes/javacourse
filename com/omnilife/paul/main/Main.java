@@ -7,13 +7,18 @@ package com.omnilife.paul.main;
 
 import com.omnilife.paul.arrays.Arrays;
 import com.omnilife.paul.casting.Casting;
+import com.omnilife.paul.controlstructures.DoWhile;
 import com.omnilife.paul.controlstructures.IfSimple;
 import com.omnilife.paul.controlstructures.ForTest;
+import com.omnilife.paul.controlstructures.IfElseIf;
+import com.omnilife.paul.controlstructures.Switch;
+import com.omnilife.paul.controlstructures.While;
 import com.omnilife.paul.data.Characters;
 import com.omnilife.paul.programs.BlockTest;
 import com.omnilife.paul.data.Integers;
 import com.omnilife.paul.data.Floating;
 import com.omnilife.paul.operators.Operators;
+import java.io.IOException;
 
 /**
  *
@@ -25,6 +30,7 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+//            throws IOException {
 //        int num; // this declares a variable called num
 //        num = 100; // this assigns num the value 100
 //        System.out.println("This is num: " + num);
@@ -35,8 +41,8 @@ public class Main {
 //
 //        IfSimple controls = new IfSimple();
 //        controls.compare();
-//        ForTest loop = new ForTest();
-//        loop.execute();
+        ForTest loop = new ForTest();
+        loop.nested();
 //        
 //        BlockTest block = new BlockTest();
 //        block.execute();
@@ -56,8 +62,14 @@ public class Main {
 //        Arrays months = new Arrays();
 //        months.threeDMatrix();
 
-        Operators ops = new Operators();
-        ops.boolLogic();
+//        Operators ops = new Operators();
+//        ops.boolLogic();
+
+//        While control = new While();
+//        control.bodyEmpty();
+
+//          DoWhile control = new DoWhile();
+//          control.help();
     }
 
 }
