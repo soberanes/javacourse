@@ -9,17 +9,15 @@ package com.omnilife.paul.classes;
  *
  * @author Paul Soberanes <paul.soberanes@omnilife.com>
  */
-public class BoxDemo4 {
+public class BoxDemo5 {
+
     public static void main(String[] args) {
+        // declare, allocate and initialize Box objects
         Box mybox1 = new Box();
         double vol;
-        
-        // initialize the box
-//        mybox1.setDim(10, 20, 15);
-        
-        // get volume of the box
+
+        // get volume of first box
         vol = mybox1.volume();
-        
-        System.out.println("Volume: " + vol);
+        System.out.println("Volume is " + vol);
     }
 }

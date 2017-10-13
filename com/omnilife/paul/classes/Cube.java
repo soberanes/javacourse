@@ -9,23 +9,21 @@ package com.omnilife.paul.classes;
  *
  * @author Paul Soberanes <paul.soberanes@omnilife.com>
  */
-public class Box {
+public class Cube {
 
     double width;
     double height;
     double depth;
-    
-    // this is the constructor for Box
-    Box(){
-        System.out.println("Constructing Box");
-        width = 10;
-        height = 10;
-        depth = 10;
+
+    // This is the constructor for Box.
+    Cube(double width, double height, double depth) {
+        this.width = width;
+        this.height = height;
+        this.depth = depth;
     }
 
-    // display volume of a box
+    // compute and return volume
     double volume() {
-
         return width * height * depth;
     }
 }
